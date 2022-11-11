@@ -24,6 +24,10 @@ class UndoStringBuilderTest {
          */
 
     }
+
+    /**
+     * other test on the same agenda.
+     */
     @org.junit.jupiter.api.Test
     void delete() {
         UndoableStringBuilder sbDelet = new UndoableStringBuilder("moty");
